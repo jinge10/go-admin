@@ -1,9 +1,9 @@
 package display
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/jinge10/go-admin/context"
+	"github.com/jinge10/go-admin/template"
+	"github.com/jinge10/go-admin/template/types"
 )
 
 type Label struct {

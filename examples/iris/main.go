@@ -6,17 +6,17 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/iris"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
 	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/jinge10/go-admin/adapter/iris"
+	_ "github.com/jinge10/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
+	"github.com/jinge10/go-admin/engine"
+	"github.com/jinge10/go-admin/examples/datamodel"
+	"github.com/jinge10/go-admin/modules/config"
+	"github.com/jinge10/go-admin/modules/language"
+	"github.com/jinge10/go-admin/plugins/example"
+	"github.com/jinge10/go-admin/template"
+	"github.com/jinge10/go-admin/template/chartjs"
 	"github.com/kataras/iris/v12"
 )
 

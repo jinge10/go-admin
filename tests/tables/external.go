@@ -1,17 +1,17 @@
 package tables
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/jinge10/go-admin/context"
+	"github.com/jinge10/go-admin/modules/db"
+	"github.com/jinge10/go-admin/plugins/admin/modules/parameter"
+	"github.com/jinge10/go-admin/plugins/admin/modules/table"
+	"github.com/jinge10/go-admin/template/types/form"
 )
 
 // GetExternalTable return the model from external data source.
 func GetExternalTable(ctx *context.Context) (externalTable table.Table) {
 
-	externalTable = table.NewDefaultTable(ctx, )
+	externalTable = table.NewDefaultTable(ctx)
 
 	info := externalTable.GetInfo()
 	info.AddField("ID", "id", db.Int).FieldSortable()

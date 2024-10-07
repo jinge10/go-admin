@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"html/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	template2 "github.com/GoAdminGroup/go-admin/template"
+	"github.com/jinge10/go-admin/modules/config"
+	"github.com/jinge10/go-admin/modules/logger"
+	"github.com/jinge10/go-admin/modules/utils"
+	template2 "github.com/jinge10/go-admin/template"
 )
 
 func ComposeHtml(temList map[string]string, separation bool, compo interface{}, templateName ...string) template.HTML {

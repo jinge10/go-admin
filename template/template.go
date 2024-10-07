@@ -14,17 +14,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	c "github.com/GoAdminGroup/go-admin/modules/config"
-	errors2 "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/template/login"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/jinge10/go-admin/context"
+	c "github.com/jinge10/go-admin/modules/config"
+	errors2 "github.com/jinge10/go-admin/modules/errors"
+	"github.com/jinge10/go-admin/modules/language"
+	"github.com/jinge10/go-admin/modules/logger"
+	"github.com/jinge10/go-admin/modules/menu"
+	"github.com/jinge10/go-admin/modules/system"
+	"github.com/jinge10/go-admin/modules/utils"
+	"github.com/jinge10/go-admin/plugins/admin/models"
+	"github.com/jinge10/go-admin/template/login"
+	"github.com/jinge10/go-admin/template/types"
 	"golang.org/x/text/cases"
 	textLang "golang.org/x/text/language"
 )
@@ -284,8 +284,8 @@ type Component interface {
 	// {{.UrlPrefix}}/assets/login/css/bootstrap.min.css => login/css/bootstrap.min.css
 	//
 	// See:
-	// https://github.com/GoAdminGroup/go-admin/blob/master/template/login/theme1.tmpl#L32
-	// https://github.com/GoAdminGroup/go-admin/blob/master/template/login/list.go
+	// https://github.com/jinge10/go-admin/blob/master/template/login/theme1.tmpl#L32
+	// https://github.com/jinge10/go-admin/blob/master/template/login/list.go
 	GetAssetList() []string
 
 	// GetAsset return the asset content according to the corresponding url suffix.

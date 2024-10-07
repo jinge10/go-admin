@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gofiber/fiber/v2"
+	"github.com/jinge10/go-admin/adapter"
+	"github.com/jinge10/go-admin/context"
+	"github.com/jinge10/go-admin/engine"
+	"github.com/jinge10/go-admin/modules/config"
+	"github.com/jinge10/go-admin/plugins"
+	"github.com/jinge10/go-admin/plugins/admin/models"
+	"github.com/jinge10/go-admin/plugins/admin/modules/constant"
+	"github.com/jinge10/go-admin/template/types"
 	"github.com/valyala/fasthttp"
 )
 

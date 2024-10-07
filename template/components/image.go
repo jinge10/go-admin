@@ -3,8 +3,8 @@ package components
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/jinge10/go-admin/plugins/admin/modules"
+	"github.com/jinge10/go-admin/template/types"
 )
 
 type ImgAttribute struct {

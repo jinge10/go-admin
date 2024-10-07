@@ -2,32 +2,32 @@ package beego
 
 import (
 	// add beego adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/beego"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+	_ "github.com/jinge10/go-admin/adapter/beego"
+	"github.com/jinge10/go-admin/modules/config"
+	"github.com/jinge10/go-admin/modules/language"
+	"github.com/jinge10/go-admin/plugins/admin/modules/table"
 
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/jinge10/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/jinge10/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/jinge10/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/jinge10/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
 	"github.com/astaxie/beego"
+	"github.com/jinge10/go-admin/engine"
+	"github.com/jinge10/go-admin/plugins/admin"
+	"github.com/jinge10/go-admin/plugins/example"
+	"github.com/jinge10/go-admin/template"
+	"github.com/jinge10/go-admin/template/chartjs"
+	"github.com/jinge10/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {
