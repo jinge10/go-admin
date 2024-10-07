@@ -1026,6 +1026,14 @@ func Get() *Config {
 	return _global.Copy().EraseSens()
 }
 
+// Get gets the global config.
+func GetGlobal() *Config {
+	_global.lock.RLock()
+	defer _global.lock.RUnlock()
+
+	return _global.Copy().EraseSens()
+}
+
 // Getter methods
 // ============================
 
